@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body 
+{
+    font-family: 'Macondo', cursive;
+    font-family: 'Radio Canada', sans-serif;
+}
+
+h1
+{
+    font-size: 15px;
+    margin: 8px;
+    font-weight: 165;
+}
+/* label .p{
+    font-weight: 300;
+} */
+
+.contact-child 
+{
+    margin-top: 5px;
+}
+
+.address-child 
+{
+    margin-top: 5px;
+}
+
+.product-child 
+{
+    margin-top: 5px;
+}
+
+.text-box 
+{
+    margin-top: 9px;
+}
+
+input,select 
+{
+    width: 100%;
+    margin: 5px 10px;
+    padding: 5px;
+}
+
+form 
+{
+    margin: 20px;
+}
+
+textarea
+{
+    width: 85%;
+    margin-left: 26px;
+    margin-right: 10px;
+}
+
+.contact-info .address-info .product-info .notes 
+{
+    margin-top: 5px;
+}
+
+.button-1 input 
+{
+    background-color: #0d6efd;
+    border-radius: 3px;
+    margin: 3px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 4px;
+    display: inline;
+    border: none;
+
+}
+
+.btn 
+{
+    margin-left: 15px;
+}
+
+.itemall-info
+{
+    width: 100%;
+}
+.p{
+    font-weight: bold;
+}
+

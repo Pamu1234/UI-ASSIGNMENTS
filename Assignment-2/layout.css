@@ -1,0 +1,277 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
+    color: black;
+}
+html,body{
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+nav{
+    
+    
+    padding: 3px 20px;
+}
+
+nav ul li{
+    list-style: none;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.head_nav{
+    width: 100%;
+    border-bottom: 1px solid rgb(217, 205, 205);
+    padding-bottom: 2%;
+    
+}
+div.card-wrap{
+    padding-top: 2%;
+    width: 80%;
+    margin: auto;
+    border-bottom: 2px solid rgb(217, 205, 205);
+  
+}
+.heading-1{
+    text-align: center;
+    font-weight: 400;
+    font-size: 19px;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5px;
+    
+}
+.pricing{
+    width: 80%;
+    margin: auto;
+}
+.heading-2{
+    text-align: center;
+    margin-top: 22px;
+    font-weight: lighter;
+}
+.para{
+    font-weight: 400;
+    width: 95%;
+    margin: auto;
+    text-align: center;
+    margin-top: 5px;
+    
+}
+
+.card card1{
+    width: 80%;
+    margin: auto;
+   
+}
+.card{
+    border: 1px solid gray;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 2px;
+}
+.card1{
+    margin-top: 6%;
+}
+.card-heading{
+    text-align: center;
+    background-color: #efeaea;
+    padding: 3px;
+    font-weight:400;
+    border-bottom: 1px solid lightgray;
+}
+.inner{
+    text-align: center;
+    font-weight: lighter;
+    font-weight: 400;
+}
+
+.inner-heading-1{
+    font-size: 25px;
+    color: 0x444a53;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.small-text{
+    font-weight: 300;
+}
+.inner-heading-2{
+    margin-top: 9px;
+}
+
+.btn{
+    width: 90%;
+    margin: 5%;
+    padding: 4%;
+    border: 1px;
+    border-radius: 4px;
+}
+.btn-1{
+    color: #009dff;
+    /* color:rgb(197 213 255); */
+    border: 1px solid #009dff;
+    background-color: inherit;
+
+    
+}
+.btn2,.btn3{
+    color: white;
+    background-color: #009dff;
+}
+
+span .a{
+    margin-top: 5px;
+    color: gray;
+}
+
+footer{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 3%;
+}
+
+.copy-right{
+    flex-basis: 100%;
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+.footer-div{
+    width: 50%;
+    margin-top: 5px;
+    /* font-weight: lighter; */
+   
+}
+.footer-div p{
+    margin-top: 5px;
+}
+
+@media screen and (min-width:576px) and (max-width:799px) {
+
+   nav ul{
+      margin-top: 0;
+      padding: 0 16%;
+        justify-content: space-evenly;
+
+    }
+  
+    .cards{
+        display: flex;
+        flex-wrap: wrap;
+        width: 95%;
+        margin: auto;
+        
+    }
+    .card{
+        width: 45%;
+    }
+
+    div.card3{
+        width: 95%;
+        margin: auto;
+        margin-top: 12px;
+    }
+
+    div.card-wrap{
+    border-bottom: 2px solid rgb(217, 205, 205);
+    margin: auto;
+    width: 91%;
+    }
+
+    footer{
+        width: 91%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 3%;
+    }
+    .footer-div{
+        margin-top: 10px;
+        /* font-weight: lighter; */
+    }
+    .footer-div p{
+        margin-top: 5px;
+    }
+    .btn3{
+        padding: 14px;
+       
+    }
+    .para{
+        width: 97%;
+    }
+    h4{
+        margin-top: 4px;
+    }
+    
+   
+}
+/* DESKTOP VIEW */
+@media screen and (min-width:800px) {
+    .heading-1{
+        float: left;
+        padding-top: 3px;
+        font-size: 17px;
+        margin-left: 20px;
+        margin-bottom: 5px;
+    }
+    nav ul{
+        float: right;
+        /* width: 90%; */
+    }
+    nav ul li{
+        margin-left: 20px;
+    }
+    .head_nav{
+    
+        border-bottom: 1px solid rgb(217, 205, 205);
+        padding-bottom: 3%;
+        
+    }
+    .cards{
+        display: flex;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .card{
+        width: 30%;
+
+    }
+    footer{
+        width: 87%;
+        display: flex;
+    }
+    div.footer-div{
+        width: 25%;
+    }
+    .footer-div p{
+        margin-top: 5px;
+    }
+    .copy-right{
+        flex-basis: 25%;
+        font-weight: lighter;
+    }
+    div.card-wrap{
+        width: 87%;
+    }
+    .para{
+        width: 90%;
+        margin: auto;
+       
+    }
+   
+   
+   
+}

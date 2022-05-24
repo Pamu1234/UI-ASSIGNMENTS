@@ -1,0 +1,66 @@
+
+@media (max-width:425px) {
+    hr 
+    {
+        display: none;
+    }
+    .headings{
+        margin-top: 21px;
+        margin-left: 9px;
+    }
+
+    .button-1 
+    {
+        width: 90%;
+        margin-left: 18px;
+    }
+
+    .text-container
+    {
+        width: 100%;
+    }
+  
+    p .notes 
+    {
+        width: 100%;
+    }
+
+    textarea 
+    {
+        width: 95%;
+        margin-left: 13px
+    }
+
+    body 
+    {
+        margin: 0;
+    }
+
+    html 
+    {
+        margin-right: 31px;
+    }
+
+    .main 
+    {
+        display: none;
+    }
+
+    .row
+    {
+        width: 100%;
+    }
+
+    .temall-info
+    {
+        width: 100%;
+    }
+    .p{
+        text-align: center;
+        margin-left: 5px;
+    }
+    .country-p{
+        margin-left: 9px;
+    }
+   
+}

@@ -1,0 +1,114 @@
+
+
+@media (min-width:760px) and (max-width:992px){
+
+    .contact-child,
+    .address-chil {
+        width: 46%;
+        float: left;
+        margin-left: 20px;
+
+    }
+
+    .address-child {
+        width: 94.5%;
+        margin-left: 20px;
+    }
+
+    .product-child{
+        width: 60%;
+        float: left;
+        margin: 3px 20px;
+    }
+
+    .product-chil{
+        width: 31.5%;
+        float: left;
+        margin: 3px;
+    }
+
+    .row-2 {
+        display: flex;
+        width: 99vw;
+    }
+
+    .row-3 
+    {
+        display: flex;
+        width: 99vw;
+    }
+
+    label 
+    {
+        width: 100%;
+        margin-left: 35px;
+    }
+    
+    .country-p 
+    {
+        width: 100%;
+        text-align: left;
+        margin-left: 9px;
+    }
+
+    .contact-info h1 
+    {
+        margin-top: 12px;
+    }
+
+    .address-info h2
+    {
+        margin-top: 30px;
+    }
+    .main{
+        /* font-weight: 300; */
+        font-size: 35px;
+    }
+
+    .button-1 
+    {
+        width:94.5%;
+        margin: 2px 9px 3px 25px;
+    }
+    
+    .text-container hr
+    {
+        margin-bottom: 10px;
+    }
+    hr{
+        width: 98%;
+        margin-left: 15px;
+        margin-top: 8px;
+        margin-bottom: 3px;
+    }
+
+    .text-container .p
+    {
+        margin-left: 26px;
+        
+    }
+    h1.headings
+    {
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+
+    .itemall-info
+    {
+        width: 100%;    
+    }
+
+    textarea
+    {
+        width: 95%;
+    }
+
+    .text-container hr
+    {
+        margin-bottom: 10px;
+    }
+    .contact-info
+    {
+        margin-bottom: 20px;
+    }
+}

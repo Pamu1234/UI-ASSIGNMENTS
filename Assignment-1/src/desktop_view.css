@@ -1,0 +1,158 @@
+
+@media (min-width:993px)
+{
+    .container
+    {
+        display: flex;
+        width: 100%;
+    }
+    .main{
+        font-weight: 600;
+        font-size: 30px;
+    }
+
+    .street-2
+    {
+        display: none;
+    }
+
+    .contact-info
+    {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin-left: 0px;
+        margin-top: 25px;
+        margin-right: 50px;
+    }
+
+    .address-info 
+    {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        margin-top: 30px;
+        margin-right: 20px;
+    }
+
+    .line-1
+    {
+        margin: 5px;
+        margin-left: 11px;
+        margin-top: 10px;
+        width: 97.2%;   
+    }
+    .city{
+        margin-top: 10px;
+    }
+    .postal{
+        margin-top: 10px;
+    }
+
+    .contact-child 
+    {
+        width: 86%;
+        margin-top: 10px;
+    }
+    .address-chil
+    {
+        float: left;
+        margin-left: 10px;
+        margin: 0px;
+
+    }
+
+    .headings
+    {
+        margin-left: 1px;
+    }
+
+    .itemall-info, .text-container
+    {
+        display: inline;    
+    }
+
+    .itemall-info, .text-container
+    {
+        float: left;
+        width: 48%;
+    }
+    .product-container{
+        margin-top: 60px;
+    }
+    .itemall-info
+    {
+        margin-right: 30px;
+       
+    }
+
+    textarea 
+    {
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
+    .product-child,  .product-chil
+    {
+        display: inline !important;
+    }
+
+    .product-child,  .product-chil
+    {
+        float: left !important;
+    }
+
+    .product-child
+    {
+        width: 67% !important;
+    }
+
+    .product-chil
+    {
+        width: 29% !important;
+        margin-top: 4.5px;
+        margin-left: 5px;
+    }
+
+    .address-chil
+    {
+        width: 48%;
+        margin-right: 10px;
+    }
+
+    .button-1
+    {
+        width: 17%;
+        margin-top: px;
+        /* margin-left: 10px; */
+    }
+
+    .text-container .p
+    {
+        margin-left: 10px;
+    }
+
+    .text-container hr
+    {
+        margin-bottom: 10px;
+    }
+    .contact-info hr{
+        width: 90%;
+    }
+    
+
+    textarea
+    {
+        margin-top: 5px;
+        margin-left: 10px;
+        width: 95%;
+        height: 150px;
+    }
+
+    .country-p{
+        margin-left: 9px;
+    }
+
+
+}

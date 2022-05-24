@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form assignment</title>
+    <!-- CSS STYLESHEETS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile_view.css">
+    <link rel="stylesheet" href="tablet_view.css">
+    <link rel="stylesheet" href="desktop_view.css">
+    <!-- FONT FAMILY -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Macondo&family=Radio+Canada:wght@300&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <form>
+        <p class="main">Request for Quote</p>
+        <div class="container">
+            <!-- CONTACT INFO DIV -->
+            <div class="contact-info">
+                <h1 class="headings">CONTACT INFORMATION</h1>
+                <hr>
+
+                <div class="contact-child">
+                    <input type="text" placeholder="First name*" minlength="3" maxlength="10" required />
+                </div>
+                <div class="contact-child">
+                    <input type="text" placeholder="Last name*" minlength="3" maxlength="10" required />
+                </div>
+                <div class="contact-child">
+                    <input type="email" placeholder="Email*" pattern=".+@qualminds\.com|.+@gmail\.com" required />
+                </div>
+                <div class="contact-child">
+                    <input type="number" placeholder="Phone" pattern="[0-9]{10}" maxlength="10" required>
+                </div>
+            </div>
+
+            <!-- ADDRESS INFO DIV -->
+            <div class="address-info">
+
+                <h1 class="headings">ADDRESS</h1>
+
+                <hr>
+                <div class="address-child">
+                    <input type="text" class="line-1" placeholder="Street line 1*" required />
+                </div>
+                <div class="address-child">
+                    <input type="text" class="street-2" placeholder="Street line 2" required />
+                </div>
+                <div class="city">
+                    <div class="address-chil">
+                        <input type="text" placeholder="City*" required />
+                    </div>
+                    <div class="address-chil">
+                        <input type="text" placeholder="State / Province*" required />
+                    </div>
+                </div>
+
+                <div class="postal">
+                    <div class="address-chil">
+                        <input type="number" placeholder="Postal / Zip code*" maxlength="5" required />
+                    </div>
+                    <!-- COUNTRY INFO DIV -->
+                    <div class="address-chil">
+                        <select name="country">
+                            <option value="Please Select">--Please Select--</option>
+                            <option value="India">India</option>
+                            <option value="England">England</option>
+                            <option value="America">America</option>
+                        </select>
+                        <p class="country-p">Country*</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="product-container">
+            <div class="itemall-info">
+                <!-- PRODUCT-INFO DIV -->
+                <div class="row">
+                    <h1 class="headings">PRODUCTS</h1>
+                    <hr>
+                    <div class="product-child">
+                        <input type="text" placeholder="item #1 name" maxlength="6" required />
+                    </div>
+                    <div class="product-chil">
+                        <input type="number" placeholder="item #1 quantity" required />
+                    </div>
+                    <div class="product-child">
+                        <input type="text" placeholder="item #2 name" maxlength="6" required />
+                    </div>
+                    <div class="product-chil">
+                        <input type="number" placeholder="item #2 quantity" required />
+                    </div>
+                    <div class="product-child">
+                        <input type="text" placeholder="item #3 name" maxlength="6" required />
+                    </div>
+                    <div class="product-chil">
+                        <input type="number" placeholder="item #3 quantity" required />
+                    </div>
+                </div>
+            </div>
+
+            <!-- NOTES INFO DIV -->
+            <div class="text-container">
+                <h1 class="headings">NOTES</h1>
+                <hr>
+                <label class="p">Additional comments or questions</label>
+                <div class="text-box">
+                    <textarea cols="40" rows="5" maxlength="200"></textarea>
+                </div>
+            </div>
+        </div>
+
+        <!-- BUTTON -->
+        <div class="button-1">
+            <input type="button" value="REQUEST QUOTE">
+        </div>
+    </form>
+</body>
+
+</html>
