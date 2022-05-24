@@ -119,7 +119,6 @@ ul{
 }
 .btn-1{
     color: #009dff;
-    /* color:rgb(197 213 255); */
     border: 1px solid #009dff;
     background-color: inherit;
 
@@ -152,8 +151,6 @@ footer{
 .footer-div{
     width: 50%;
     margin-top: 5px;
-    /* font-weight: lighter; */
-   
 }
 .footer-div p{
     margin-top: 5px;
@@ -200,7 +197,6 @@ footer{
     }
     .footer-div{
         margin-top: 10px;
-        /* font-weight: lighter; */
     }
     .footer-div p{
         margin-top: 5px;
