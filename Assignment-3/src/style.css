@@ -2,11 +2,27 @@
 .img-1{
     border-radius: 50%;
 }
-.h3{
+/* .h3{
     font-size: 30px;
  
-}
+} */
+html{
+   
+font-family:"EB","Garamond";
 
+
+}
+.scroll-up {
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    background-color: rgba(33, 37, 41, 0.8);
+    width: 22px;
+    color: #fff;
+    padding:2px 3px;;
+    height: 22px;
+    text-align: center;
+}
 .copy, .footer-heading, .footer-nav{
 
     text-align: center;
@@ -43,10 +59,35 @@ p{
       position:absolute;
       right: 12%;
   } 
+.nav a{
+    padding:10px;
+    text-align: center;
+}
+nav{
+    width: 80%;
+    margin: auto;
 
-  @media screen and (min-width:768px)
-  {
-      ul .navbar-nav{
-          display: flex;
-      }
-  }
+    
+    
+}
+ nav ul{
+    width: 70%;
+    margin: auto;
+    justify-content: space-evenly;
+    text-decoration: none;
+    
+}
+.nav-link{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-size: 12px;
+    
+}
+a{
+    color: black;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+ 
