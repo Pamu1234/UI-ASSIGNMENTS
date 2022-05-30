@@ -1,17 +1,11 @@
-
 .img-1{
     border-radius: 50%;
 }
-/* .h3{
-    font-size: 30px;
- 
-} */
-html{
-   
+
+html{   
 font-family:"EB","Garamond";
-
-
 }
+
 .scroll-up {
     position: fixed;
     right: 15px;
@@ -57,7 +51,10 @@ p{
   }
   .fa-arrow-up{
       position:absolute;
-      right: 12%;
+      right: 5%;
+      /* border-radius: 5px; */
+      /* width: 10%; */
+
   } 
 .nav a{
     padding:10px;
@@ -65,10 +62,7 @@ p{
 }
 nav{
     width: 80%;
-    margin: auto;
-
-    
-    
+    margin: auto;      
 }
  nav ul{
     width: 70%;
@@ -88,6 +82,24 @@ a{
     color: black;
     font-weight: 300;
     font-size: 12px;
+}
+.list-group{
+    position: relative;
+}
+.watermark{
+    position: absolute;
+    right: 80%;
+    font-size: 70px;
+    top: -13%;
+    color: gray;
+    opacity: 0.3;
+    
+}
+
+@media (min-width: 768px) {
+    .contain-1, .contain-2{
+      border-right: 1px solid #e3e7eb !important;
+    }
 }
 
  

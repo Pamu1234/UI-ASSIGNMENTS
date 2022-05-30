@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
+    font-family: "EB","Garamond";
+    line-height: 1.5;
+}
+
+h2.heading{
+    font-size: 18px;
+}
+header{
+    background-color: #f8f9fa;
+}
+
+.header-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.lorem{
+    font-size: 15px;
+    margin-top: 8px;
+}
+li{
+    list-style-type: none;
+}
+header,main,section,footer,.trending{
+    width: 100%;
+    padding: 18px 0;
+}
+header{
+    padding: 15px 0;
+}
+div.trending-wrapper{
+    width: 100%;
+    margin: auto;
+    border: 2px solid #efefef;
+}
+.trending-heading{
+    font-size: 1.5rem;
+}
+
+section{
+    background-color: #222529;
+    color: #fff;
+}
+
+section h3{
+    font-size: 1.5 rem
+}
+
+.section-heading{
+    margin-bottom: 10%;
+}
+
+.section-para{
+    margin-bottom: 8%;
+}
+
+.learn-more{
+    display: block;
+    margin-bottom: 10%;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.navigation-categories-wrapper{
+    display: flex;
+    padding-bottom: 10%;
+}
+
+.ul-1,.ul2{
+    width: 50%;
+}
+
+.recent-img-section img{
+    display: block;
+    width: 15%;
+    /* margin-top: 0px; */
+    margin-right: 12px;
+    padding-top: 5px;
+}
+
+.recent-img-section small{
+    padding: 0;
+    margin: 0;
+}
+
+.recent-img-section{
+    display: flex;
+    align-items: center;
+}
+
+.recent-text{
+    width: 80%;
+}
+
+.trending ul li{
+    border-bottom: 2px solid #efefef;
+    font-size: 1.3rem;
+    width: 100%;
+    padding: 5%;
+    
+}
+.trending ul li small{
+    display: block;
+    padding: 5% 0;
+}
+
+
+.trending .watermark{
+    display: none;
+    /* font-size: 25px;
+    left: 5px; */
+}
+
+.trend-heading{
+    font-size: 17px;
+}
+
+.header-wrapper,.main-content,.section-wrapper,.trending-wrapper,.footer-wrapper{
+    width: 90%;
+    margin: auto;
+}
+img{
+    width: 100%;
+    margin: 4% 0%;
+}
+
+span{
+    color: #bebebe;
+    display: block;
+    /* padding-top: 0%; */
+    margin-bottom: 9px;
+    font-size: 12px;
+
+}
+.profile{
+    margin: 5% 0px;
+    display: flex;
+    align-items: center;
+}
+.profile-name{
+    padding-left: 15px;
+}
+.profile-img{
+    width: 15%;
+    border-radius: 50%;
+    
+}
+.main-img{
+    margin-bottom: 5%;
+}
+
+.main-heading{
+    font-size: 28px;
+ 
+}
+nav{
+    display: none;
+}
+
+footer{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+footer small{
+    font-size: 1rem;
+}
+
+.footer-wrapper p{
+    font-size: 1.2rem;
+    padding-bottom: 10px;
+}
+
+
+.arrow{
+    position: absolute;
+    right: 20px;
+    background-color: #222529;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.footer-icons{
+    background-color: #222529;
+    border-radius: 50%;
+    padding: 3%;
+}
+
+
+
