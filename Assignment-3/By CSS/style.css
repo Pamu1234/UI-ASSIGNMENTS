@@ -9,34 +9,34 @@ html{
     font-family: "EB","Garamond";
     line-height: 1.5;
 }
-
-h2.heading{
-    font-size: 18px;
+h2.post-heading{
+    font-size: 1.3rem;
 }
 header{
     background-color: #f8f9fa;
 }
+li{
+    list-style-type: none;
 
-.header-wrapper{
+}
+
+.header-content{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.lorem{
-    font-size: 15px;
-    margin-top: 8px;
-}
-li{
-    list-style-type: none;
-}
+
 header,main,section,footer,.trending{
     width: 100%;
-    padding: 18px 0;
+    padding: 2px;
 }
 header{
-    padding: 15px 0;
+    padding: 10% 0;
 }
-div.trending-wrapper{
+.para-1{
+    margin-top: 15px;
+}
+div.trending-content{
     width: 100%;
     margin: auto;
     border: 2px solid #efefef;
@@ -69,7 +69,7 @@ section h3{
     color: #fff;
 }
 
-.navigation-categories-wrapper{
+.navigation-categories-section{
     display: flex;
     padding-bottom: 10%;
 }
@@ -80,17 +80,18 @@ section h3{
 
 .recent-img-section img{
     display: block;
-    width: 15%;
-    /* margin-top: 0px; */
-    margin-right: 12px;
-    padding-top: 5px;
+    width: 35%;
+    
+    margin-right: 10%;
 }
 
-.recent-img-section small{
+.recent-img-section, .small-heading{
     padding: 0;
     margin: 0;
 }
-
+.recent-heading{
+    color: darkgray;
+}
 .recent-img-section{
     display: flex;
     align-items: center;
@@ -102,7 +103,7 @@ section h3{
 
 .trending ul li{
     border-bottom: 2px solid #efefef;
-    font-size: 1.3rem;
+    font-size: 17px;
     width: 100%;
     padding: 5%;
     
@@ -111,33 +112,27 @@ section h3{
     display: block;
     padding: 5% 0;
 }
-
-
-.trending .watermark{
+.posts{
+    padding: 1px;
+}
+.watermark{
     display: none;
-    /* font-size: 25px;
-    left: 5px; */
 }
-
-.trend-heading{
-    font-size: 17px;
-}
-
-.header-wrapper,.main-content,.section-wrapper,.trending-wrapper,.footer-wrapper{
+.header-content,.main-content,.section-wrapper,.trending-content,.footer-section{
     width: 90%;
     margin: auto;
 }
 img{
     width: 100%;
-    margin: 4% 0%;
+    margin: 10px 0;
 }
 
-span{
+.small-heading{
     color: #bebebe;
-    display: block;
-    /* padding-top: 0%; */
-    margin-bottom: 9px;
     font-size: 12px;
+    display: block;
+    padding-top: 0%;
+    margin-bottom: 7%;
 
 }
 .profile{
@@ -145,21 +140,20 @@ span{
     display: flex;
     align-items: center;
 }
-.profile-name{
-    padding-left: 15px;
+.name{
+    padding-left: 10px;
 }
-.profile-img{
-    width: 15%;
+.img-1{
+    margin-bottom: 8px;
+
+}
+.img-2{
+    width: 12%;
     border-radius: 50%;
-    
-}
-.main-img{
-    margin-bottom: 5%;
 }
 
-.main-heading{
-    font-size: 28px;
- 
+.heading-1{
+    font-size: 33px
 }
 nav{
     display: none;
@@ -174,24 +168,222 @@ footer small{
     font-size: 1rem;
 }
 
-.footer-wrapper p{
+.footer-section p{
     font-size: 1.2rem;
     padding-bottom: 10px;
 }
 
-
-.arrow{
+.go-up{
     position: absolute;
-    right: 20px;
+    right: 15px;
     background-color: #222529;
     padding: 5px 10px;
-    border-radius: 5px;
+    border-radius: 4px;
 }
 .footer-icons{
     background-color: #222529;
     border-radius: 50%;
-    padding: 3%;
+    padding: 8px;
 }
 
 
 
+
+
+
+
+
+/* Large device */
+@media screen and (min-width: 768px) {
+    header,main{
+        width: 100%;
+        padding: 0;
+    }
+    .fa-bars{
+        display: none;
+    }
+
+    .header-logo i{
+        padding: 2%;
+    }
+    main{
+        width: 100%;
+        padding: 1% 0 10% 0;
+    }
+    .header-content,.main-content{
+        width: 80%;
+        padding: 0 auto 0 auto;
+        margin: auto;
+    }
+    nav{
+        display: block;
+        width: 50%;
+    }
+
+    .logo{
+        width: 25%;
+    }
+    .header-logo{
+        width: 25%;
+        text-align: right;
+    }
+    nav ul{
+        display: flex;
+        width: 70%;
+        margin: auto;
+        justify-content: space-evenly;
+    }
+    img{
+        margin-top: 0;
+    }
+
+    .main-content{
+        margin: auto;
+        display: grid;
+        grid-template-rows: 100%;
+        grid-template-columns: 30% 50% 20%;
+    }
+    .container2{
+        width: 95%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    .container1,.container2,.container3{
+        padding: 0%;
+    }
+    .container2 .post{
+        width: 100%;
+        padding: 0% 10%;
+        margin-left: 5%;
+        border-left: 1px solid #efefef;
+    }
+    .container1{
+        width: 100%;
+        margin-top: 0%;
+    }
+    .container2{
+        width: 90%;
+        margin: auto;
+        margin-top: 0;
+    }
+
+    .container2 .post{
+        padding: 0 10%;
+    }
+    section{
+        padding: 3% 0 3% 0;
+    }
+    .section-para{
+        font-size: 15px;
+        color: lightgray;
+    }
+
+    .section-wrapper{
+        width: 80%;
+        margin: auto;
+        display: flex;
+    }
+
+    .about-section{
+        width: 25%;
+    }
+
+    .navigation-categories{
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .recent-post{
+        width: 25%;
+    }
+
+    .navigation-categories-section{
+        width: 60%;
+        justify-content: end;
+    }
+
+    .ul1,.ul2{
+        width: 100%;
+    }
+
+    .recent-img-section {
+        align-items: flex-start;
+      }
+
+      .section-wrapper h3{
+          margin-bottom: 5%;
+      }
+
+     footer{
+            padding: 3% 0px;
+            width: 100%;
+      }
+
+      .footer-section{
+          width: 80%;
+          display: flex;
+          align-items: baseline;
+      }
+   
+      .footer-text{
+          width: 50%;
+          padding: 10px 0;
+          text-align: left;
+      }
+      .footer-icons-section{
+          width: 50%;
+          text-align: right;
+      }
+      .footer-icons{
+          padding: 8px;
+      }
+
+      .go-up{
+            right: 1%;
+      }
+
+      .heading-1 {
+        font-size: 30px;
+      }
+
+      .name{
+          padding-bottom: 10%;
+      }
+      .learn-more{
+          font-size: 18px;
+      }
+
+      h2.post-heading {
+        font-size: 17px;
+      }
+
+      .trending .watermark{
+          display:flex;
+        
+      }
+
+      .trending-content{
+          position: relative;
+      }
+
+      .trending ul li{
+        font-size: 1rem;
+      }
+      .watermark{
+          position: absolute;
+          margin-top: -10%;
+          opacity: 0.5;
+          left: -12%;
+          font-size: 80px;
+          color: #efefef;
+      }
+
+      .down{
+          margin-left: 5px;
+      }
+
+      .footer-heading{
+          display: block;
+      }
+   }
