@@ -1,0 +1,504 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI";
+}
+
+/* Header */
+.header{
+    width: 100%;
+    height: auto;
+    padding: 0 50px;
+}
+
+.row-header{
+    display: flex;
+}
+
+.header-logo{
+    width: 30%;
+    display: flex;
+}
+
+.logo-img{
+    position: relative;
+    top: 20px;
+}
+
+.logo-heading{
+    font-size: 22px;
+    color: rgb(234, 77, 81);
+    align-self: center;
+    padding-left: 10px;
+    padding-top: 12px;
+}
+
+.header-navigation{
+    width: 70%;
+    align-self: center;   
+}
+
+nav ul{
+    justify-content:space-around;
+    display: flex; 
+    padding-top: 12px;
+
+}
+
+nav ul li {
+    list-style: none;
+   
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+.header-navigation a{
+    color: rgb(91, 91, 91);
+    font-size:15px;
+    font-weight: 500;
+ }
+
+ /* ---------------------------------------------------------------- */
+
+ /* Section-1 Banner */
+
+ .banner{
+    width: 100%;  
+}
+
+.row-1{
+    height: 35em;
+}
+
+.banner-img{
+    width: 70%;
+}
+
+.banner-image{
+    width: 100%;
+    height: 100%;
+}
+
+.banner-content{
+    width: 30%;
+    padding: 50px;
+    background-color:#ea474c;
+}
+
+.banner-content p{
+    color: rgb(254, 255, 255);
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+.banner-content h1{
+    color: white;
+    font-size: 35px;
+    margin-top: 15px;
+}
+
+.btn-banner{
+    background-color:rgb(255, 255, 255);
+    width: 60%;
+    border:none;
+    margin-top: 18px;
+    padding: 14px 0;
+    border-radius: 5px;
+    font-size: 20px;
+    color: lightslategray;
+   
+}
+
+.row-1,.row-2{
+    display: flex;
+}
+
+/* ----------------------------------------------------------- */
+
+/* Section-2 Recipes =*/
+
+.filter{
+    background-color: #eae9e9;
+}
+.filter_conatiner{
+    padding: 60px;
+    padding-bottom: 10px;
+}
+
+.recipes_heading{
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.filter_type{
+    display: flex;
+}
+
+.left_filter{
+    flex: 1.1;
+    background-color: #ea474c;
+}
+
+.filter_one{
+    margin-top: 5%;
+    padding-left: 15px;
+}
+
+.filter_one span{
+    padding: 10px;
+    padding-left: 0px;
+    text-align: center;
+    color: white;
+}
+.filter_one i{
+    margin-left: 40%;
+    color: white;
+}
+
+.middle_filter{
+    flex: 3;
+    margin-bottom: 10px;
+    
+}
+
+.filter_two{
+    margin-top: 1.3%;
+    margin-left: 3%;
+
+}
+
+.filter_two span{
+   font-size: 20px;
+ margin-right: 2%;
+}
+
+.filter_two button{
+  height: 40px;
+  width: 140px;
+  font-size: 15px;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  
+}
+
+.filter_two button i{
+    margin-left: 2%;
+    
+}
+
+.end_filter span{
+    font-size: 20px;
+}
+
+.main_filter{
+    display: flex;
+    background-color: #ea474c;
+}
+
+.filter-one{
+    width: 25%;
+    padding: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+.border{
+    border-right: 1px solid white;
+}
+
+.filter_list{
+    width: 25%;
+    padding: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+.lists{
+    margin-top: 10%;
+}
+
+.filter_heading{
+    margin-bottom: 10px;
+}
+
+/* ----------------Cards section-------------- */
+
+.recipes-detail{
+    padding-bottom: 30px;
+}
+
+.row-recipes-detail{
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    margin: auto;
+    padding-top: 25px;
+    
+}
+
+.recipes-detail-col p{
+    margin-top: 15px;
+    font-size: 25px;
+    color: #4a4a4a;
+    font-weight: 500;
+}
+
+.recipes-detail-col{
+    width: 25%;
+    margin-bottom: 20px;
+    padding: 23px;
+}
+
+.recipes-card{
+    height: 150px;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.recipes-date,.recipes-location{
+    color: #5e5e5e;
+    font-size: 15px;
+}
+
+.dish-img{
+    width: 100%;
+    height: inherit;
+}
+
+.image-footer{
+    margin-left: 23px;
+       
+   }
+.image-footer span,.upangle{
+    color: #ea474c;
+}
+
+.row1:after,.row-2:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.row-feedback{
+    display: flex;
+    margin: auto;
+    margin-left: 59px;
+}
+
+.recipes-location{
+    float: right;
+}
+
+
+
+
+.upangle{
+    margin-top: 5px;
+    margin-left: 7px;
+}
+
+/* --------- */
+
+
+
+/* Feedback-section */
+
+.feedback{
+    background-color: #ea474c;   
+}
+
+.sub-feedback{
+    width: 95%;
+    height: 27em;
+}
+
+.feedback-words{
+    width: 90%;
+    margin: auto;
+    padding-top: 40px;
+}
+
+.feedback-heading,.feedback-para{
+    color: #feffff;
+}
+
+.feedback-heading{
+    font-size: 35px;
+}
+
+.feedback-para{
+    width: 35%;
+    padding-top: 10px;
+}
+
+.form{
+    padding-top: 10px;
+}
+
+#form-first{
+    border-bottom: 1px solid #fff;
+    width: 95%;
+}
+
+
+
+.form-col-1{
+    width: 25%;
+    padding: 10px 0;
+}
+
+.form-col-1 label,.fa-trash-can{
+    color: #ffffff;
+}
+
+.form-col-1 input{
+    width: 94%;
+    padding: 7px;
+    margin-top: 5px;
+}
+
+#form-remove{
+    text-align: center;
+}
+.padding-y{
+    padding: 35px 0;
+}
+.remove{
+    padding: 8px;
+}
+
+.add-friend{
+    background-color: #ea474c;
+    width: 45%;
+    border-radius: 5px;
+    border: 1px solid white;
+    color: white;
+    padding: 4% 3%;
+    margin-top:25px ;
+    
+}
+
+label{
+    font-size: 19px;
+    margin: 3px;
+}
+
+.feedback-btn{
+
+    text-align: center;   
+}
+
+.send-btn{
+    width:15%;
+    padding: 11px;
+    margin: 20px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+}
+
+
+/* ------------ */
+
+
+
+
+/* Footer */
+
+.footer{
+    background-color: #f6f6f6;
+    width: 100%;
+}
+
+.row-footer{
+    width: 94%;
+    margin: auto;
+    display: flex;
+}
+
+.footer-info{
+    width: 20%;
+    padding: 15px;
+    padding-top: 4%;
+    text-align: start;
+}
+
+.footer-heading{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.footer-para{
+    padding-top: 10px;
+}
+
+.footer-link{
+    color: red;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+.rounded-checkbox {
+
+    width: 27px;
+    
+    height: 27px;
+    
+    border-radius: 50%;
+    
+    vertical-align: middle;
+    
+    outline: none;
+    
+    cursor: pointer;
+    
+    appearance: none;
+    
+    -webkit-appearance: none;
+    
+    background-color: #fff;
+    
+    -webkit-user-select: none;
+    
+    -moz-user-select: none;
+    
+    -ms-user-select: none;
+    
+    user-select: none;
+    
+    }
+    
+    .rounded-checkbox:checked {
+    
+    appearance: auto;
+    
+    clip-path: circle(50% at 50% 50%);
+    
+    background-color: #fff;
+    
+    }
+
+
+
+
+
+
+
+
+
+
