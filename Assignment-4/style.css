@@ -116,13 +116,18 @@ nav ul li a{
    
 }
 
+.fa-arrow-right-long{
+    padding-left: 5px;
+    color: black;
+}
+
 .row-1,.row-2{
     display: flex;
 }
 
 /* ----------------------------------------------------------- */
 
-/* Section-2 Recipes =*/
+/* Section-2 Recipes */
 
 .filter{
     background-color: #eae9e9;
@@ -164,14 +169,12 @@ nav ul li a{
 
 .middle_filter{
     flex: 3;
-    margin-bottom: 10px;
-    
+    margin-bottom: 10px;  
 }
 
 .filter_two{
     margin-top: 1.3%;
     margin-left: 3%;
-
 }
 
 .filter_two span{
@@ -194,8 +197,12 @@ nav ul li a{
     
 }
 
-.end_filter span{
-    font-size: 20px;
+select{
+    padding: 10px;
+    margin-bottom: 10/px;
+}
+select:hover{
+    cursor: pointer;
 }
 
 .main_filter{
@@ -215,18 +222,31 @@ nav ul li a{
 }
 
 .filter_list{
-    width: 25%;
+    width: 23.5%;
     padding: 15px;
     color: white;
     font-size: 20px;
 }
 
 .lists{
-    margin-top: 10%;
+    position: relative;
+    margin-top: 40px;
 }
 
 .filter_heading{
     margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.end_filter input{
+ 
+    padding: 5px;
+    text-align: center;
+    font-size: 13px;
+
+}
+.fa-search{
+    padding-right: 10px;
 }
 
 /* ----------------Cards section-------------- */
@@ -244,7 +264,7 @@ nav ul li a{
     
 }
 
-.recipes-detail-col p{
+.recipe-info{
     margin-top: 15px;
     font-size: 25px;
     color: #4a4a4a;
@@ -265,7 +285,7 @@ nav ul li a{
 
 .recipes-date,.recipes-location{
     color: #5e5e5e;
-    font-size: 15px;
+    font-size: 13px;
 }
 
 .dish-img{
@@ -274,11 +294,17 @@ nav ul li a{
 }
 
 .image-footer{
-    margin-left: 23px;
-       
-   }
-.image-footer span,.upangle{
+    margin-left: 23px;       
+}
+
+.image-footer a,.upangle{
+    text-decoration: none;
     color: #ea474c;
+}   
+
+.upangle{
+    margin-top: 5px;
+    margin-left: 7px;
 }
 
 .row1:after,.row-2:after {
@@ -295,14 +321,6 @@ nav ul li a{
 
 .recipes-location{
     float: right;
-}
-
-
-
-
-.upangle{
-    margin-top: 5px;
-    margin-left: 7px;
 }
 
 /* --------- */
@@ -348,8 +366,6 @@ nav ul li a{
     width: 95%;
 }
 
-
-
 .form-col-1{
     width: 25%;
     padding: 10px 0;
@@ -368,6 +384,10 @@ nav ul li a{
 #form-remove{
     text-align: center;
 }
+#form-remove, label:hover{
+    cursor: pointer;
+}
+
 .padding-y{
     padding: 35px 0;
 }
@@ -385,10 +405,14 @@ nav ul li a{
     margin-top:25px ;
     
 }
+.add-friend:hover, .send-btn:hover, .btn-banner:hover{
+    cursor: pointer;
+    background-color: green;
+}
 
 label{
     font-size: 19px;
-    margin: 3px;
+    margin: 2px;
 }
 
 .feedback-btn{
@@ -404,12 +428,11 @@ label{
     border: none;
     border-radius: 5px;
 }
-
+.fa-arrow-right{
+    padding-left: 6px;
+}
 
 /* ------------ */
-
-
-
 
 /* Footer */
 
@@ -445,53 +468,47 @@ label{
     text-decoration: none;
 }
 
+/* circle checkbox */
 
 
-
-
-
-
-
-
-.rounded-checkbox {
-
-    width: 27px;
-    
-    height: 27px;
-    
-    border-radius: 50%;
-    
-    vertical-align: middle;
-    
-    outline: none;
-    
+.field_grp{
+    display: flex;
+    align-items: center;
+    padding: 5px;      
+}  
+ 
+.field_grp label{
     cursor: pointer;
-    
-    appearance: none;
-    
-    -webkit-appearance: none;
-    
-    background-color: #fff;
-    
-    -webkit-user-select: none;
-    
-    -moz-user-select: none;
-    
-    -ms-user-select: none;
-    
-    user-select: none;
-    
-    }
-    
-    .rounded-checkbox:checked {
-    
-    appearance: auto;
-    
-    clip-path: circle(50% at 50% 50%);
-    
-    background-color: #fff;
-    
-    }
+    display: flex;
+    color: white;
+}
+ 
+.field_grp input[type='checkbox']{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+ 
+.field_grp label::before{
+    content: "";
+    width: 1.2em;
+    height: 1.2em;
+    border-radius: 50%;
+    border:1px solid white;
+    margin-right: .5em;
+    background-color: white;
+}
+ 
+.field_grp input[type="checkbox"]:checked + label::before{
+    content: '\002714';
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;  
+}
+
+
 
 
 
