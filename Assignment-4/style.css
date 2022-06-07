@@ -51,7 +51,6 @@ nav ul{
 
 nav ul li {
     list-style: none;
-   
 }
 
 nav ul li a{
@@ -62,13 +61,13 @@ nav ul li a{
     color: rgb(91, 91, 91);
     font-size:15px;
     font-weight: 500;
- }
+}
 
  /* ---------------------------------------------------------------- */
 
  /* Section-1 Banner */
 
- .banner{
+.banner{
     width: 100%;  
 }
 
@@ -77,6 +76,7 @@ nav ul li a{
 }
 
 .banner-img{
+
     width: 70%;
 }
 
@@ -113,7 +113,6 @@ nav ul li a{
     border-radius: 5px;
     font-size: 20px;
     color: lightslategray;
-   
 }
 
 .fa-arrow-right-long{
@@ -178,18 +177,17 @@ nav ul li a{
 }
 
 .filter_two span{
-   font-size: 20px;
- margin-right: 2%;
+    font-size: 20px;
+    margin-right: 2%;
 }
 
 .filter_two button{
-  height: 40px;
-  width: 140px;
-  font-size: 15px;
-  background-color: white;
-  border: none;
-  border-radius: 5px;
-  
+    height: 40px;
+    width: 140px;
+    font-size: 15px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
 }
 
 .filter_two button i{
@@ -239,7 +237,6 @@ select:hover{
 }
 
 .end_filter input{
- 
     padding: 5px;
     text-align: center;
     font-size: 13px;
@@ -261,7 +258,6 @@ select:hover{
     width: 95%;
     margin: auto;
     padding-top: 25px;
-    
 }
 
 .recipe-info{
@@ -384,6 +380,7 @@ select:hover{
 #form-remove{
     text-align: center;
 }
+
 #form-remove, label:hover{
     cursor: pointer;
 }
@@ -391,6 +388,7 @@ select:hover{
 .padding-y{
     padding: 35px 0;
 }
+
 .remove{
     padding: 8px;
 }
@@ -405,6 +403,7 @@ select:hover{
     margin-top:25px ;
     
 }
+
 .add-friend:hover, .send-btn:hover, .btn-banner:hover{
     cursor: pointer;
     background-color: green;
@@ -428,6 +427,7 @@ label{
     border: none;
     border-radius: 5px;
 }
+
 .fa-arrow-right{
     padding-left: 6px;
 }
@@ -476,19 +476,19 @@ label{
     align-items: center;
     padding: 5px;      
 }  
- 
+
 .field_grp label{
     cursor: pointer;
     display: flex;
     color: white;
 }
- 
+
 .field_grp input[type='checkbox']{
     position: absolute;
     opacity: 0;
     cursor: pointer;
 }
- 
+
 .field_grp label::before{
     content: "";
     width: 1.2em;
@@ -498,7 +498,7 @@ label{
     margin-right: .5em;
     background-color: white;
 }
- 
+
 .field_grp input[type="checkbox"]:checked + label::before{
     content: '\002714';
     background-color:white;
@@ -507,12 +507,6 @@ label{
     align-items: center;
     color: black;  
 }
-
-
-
-
-
-
 
 
 
