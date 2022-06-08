@@ -46,7 +46,6 @@ nav ul{
     justify-content:space-around;
     display: flex; 
     padding-top: 12px;
-
 }
 
 nav ul li {
@@ -76,7 +75,6 @@ nav ul li a{
 }
 
 .banner-img{
-
     width: 70%;
 }
 
@@ -191,8 +189,7 @@ nav ul li a{
 }
 
 .filter_two button i{
-    margin-left: 2%;
-    
+    margin-left: 2%;  
 }
 
 select{
@@ -477,21 +474,16 @@ label{
 
 
 .field_grp{
-    display: flex;
-    align-items: center;
-    padding: 5px;      
+    padding: 4px;      
 }  
 
 .field_grp label{
-    cursor: pointer;
     display: flex;
-    color: white;
 }
 
 .field_grp input[type='checkbox']{
     position: absolute;
-    opacity: 0;
-    cursor: pointer;
+    opacity: 0;    
 }
 
 .field_grp label::before{
@@ -506,7 +498,6 @@ label{
 
 .field_grp input[type="checkbox"]:checked + label::before{
     content: '\002714';
-    background-color:white;
     display: flex;
     justify-content: center;
     align-items: center;
