@@ -27,10 +27,10 @@
                 <div class="header-navigation">
                     <nav>
                     <ul>
-                    <li><a href="#">RECIPES</a></li>
+                    <li><a href="#recipes">RECIPES</a></li>
                     <li><a href="#">DRINKS</a></li>
                     <li><a href="#">DECORATIONS</a></li>
-                    <li><a href="#">ABOUT THE GRILLED PRAWN</a></li>
+                    <li><a href="#about">ABOUT THE GRILLED PRAWN</a></li>
                 </ul>
                 </nav>
                 </div>
@@ -48,26 +48,26 @@
                     </div>
 
                     <div class="banner-content">
-                    <p>LATEST RECIPE</p>
-                    <h1>Baked Polenta with Cheese and Mushrooms.</h1>
-                    <p> Polenta, goat cheese, italian sausage, and cremini mushrooms.
+                    <p class="banner-small-heading">LATEST RECIPE</p>
+                    <h1 class="large-heading">Baked Polenta with Cheese and Mushrooms.</h1>
+                    <p class="banner-info"> Polenta, goat cheese, italian sausage, and cremini mushrooms.
                     All together this will make for preety darn good side dish to a
                     lovely salad. Go for it.</p>
-                    <button class="btn-banner"> Go to receipe <i class="fa-solid fa-arrow-right-long"></i> </button>
+                    <button class="btn-banner"><a href="#goto">Go to receipe</a>  <i class="fa-solid fa-arrow-right-long"></i> </button>
                     </div>
 
                 </div>
             </div>
 <!---------- Receipes Container ------------->
 <div class="filter">
-    <div class="filter_conatiner">
+    <div class="filter_conatiner" id="recipes">
         <div class="recipes_heading">Our Recipes</div> 
         <!-- 1st -->
         <div class="filter_type"> 
 
             <div class="left_filter">
                 <div class="filter_one">
-                <span >Filter recipes by </span>
+                <span>Filter recipes by </span>
                 <i class="fa fa-minus"></i>
                 </div>
             </div>
@@ -197,7 +197,7 @@
 <!---------------------- Cards Section --------------------------------->
 
 
-    <div class="recipes-detail">
+    <div class="recipes-detail" id="goto">
         <div class="row-recipes-detail">
             <div class="recipes-detail-col">
                 <div class="recipes-card">
@@ -378,7 +378,7 @@
         </div>
 
         <!-- ----------------------------------footer ------------------------------------>
-        <div class="footer">
+        <div class="footer" id="about">
             <div class="row-footer">
                 <div class="footer-info">
                     <span class="footer-heading">Our Recipes</span>
