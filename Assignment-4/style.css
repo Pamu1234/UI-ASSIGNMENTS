@@ -236,12 +236,17 @@ select:hover{
     padding-left: 10px;
 }
 
+.end_filter {
+    margin-top: 11px;
+}
 .end_filter input{
-    padding: 5px;
+    padding: 8px;
+    width: 87%;
     text-align: center;
     font-size: 13px;
-
+    border: none;
 }
+
 .fa-search{
     padding-right: 10px;
 }
@@ -335,7 +340,7 @@ select:hover{
 }
 
 .feedback-words{
-    width: 90%;
+    width: 91%;
     margin: auto;
     padding-top: 40px;
 }
@@ -406,7 +411,7 @@ select:hover{
 
 .add-friend:hover, .send-btn:hover, .btn-banner:hover{
     cursor: pointer;
-    background-color: green;
+    background-color: antiquewhite;
 }
 
 label{
