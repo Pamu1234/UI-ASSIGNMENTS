@@ -10,15 +10,11 @@
     }
     .header-logo{
         width: 50%;
-        text-align: center;
         margin: auto;
     }
     .logo-heading{
         padding-top: 33px;
         font-size: 14px;
-    }
-    .header-navigation{
-        margin: auto;
     }
     nav .hamburger{
         display: block;
@@ -50,7 +46,9 @@
     }
     .banner-content{
         width: 100%;
-        padding:  10px
+    }
+    .banner-image {
+        height: 500px;
     }
     .banner-small-heading{
         font-size: 17px;
@@ -61,12 +59,8 @@
     .banner-content .banner-info{
         font-size: 19px;
     }
-    .banner-small-heading {
-        margin-top: 0; 
-    }
     .btn-banner{
         padding: 11px;
-        border:none;
         font-size: 18px;
     }
     .btn-banner .go-to-recipe{
@@ -80,17 +74,17 @@
         font-size: 15px;
     }
     .recipe-info {
-        /* margin-top: 15px; */
         font-size: 19px;
-        /* color: #4a4a4a; */
-        /* font-weight: 500; */
     }
     .recipes-card {
         height: inherit;
-        background-color: #fff;
     }
     .image-footer .return, .upangle {
         font-size: 23px;
+        padding-left: 0px;
+    }
+    .feedback{
+        padding: 15px;
     }
     .feedback-para{
         width: 80%;
@@ -107,7 +101,6 @@
     }
     .footer-info{
         width: 100%;
-        padding-top: 0px;
     }
     div.form-1,.form-2{
     display: flex;  
@@ -135,20 +128,11 @@
     .row-footer{
         display: block;
     }
-    .footer-para, .footer-para-2 {
-        font-size: 20px;
-        color: #5e5e5e;
-        font-weight: 500;
-    }
-    .footer-heading{
-        font-size: 25px;
-    }
     #recipes{
         padding: 0 10px;
     }
     .main_filter{
         display: block;
-        padding: 0 10px
     }
     .filter_list{
         width: auto;
@@ -174,14 +158,8 @@
     .end_filter{
         display: block;
     }
-    .filter_type{
-        flex-basis: 100%;
-    }
     .row-recipes-detail{
         padding: 0 10px
-    }
-    .sub-feedback{
-        margin: auto;
     }
     #form-remove, #add-friend {
         text-align: inherit;
