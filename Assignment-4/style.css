@@ -129,7 +129,7 @@ nav ul li a{
     flex-wrap: wrap;
 }
 .left_filter{
-    width: 24%;
+    width: 24.5%;
     background-color: #ea474c;
 }
 .filter_one{
@@ -188,17 +188,11 @@ select:hover{
     background-color: #ea474c;
 
 }
-.filter-one{
-    width: 25%;
-    padding: 15px;
-    color: white;
-    font-size: 20px;
-}
 .border{
     border-right: 1px solid white;
 }
 .filter_list{
-    width: 24.5%;
+    width: 25%;
     padding: 15px;
     color: white;
     font-size: 20px;
@@ -297,8 +291,6 @@ select:hover{
 .recipes-location{
     float: right;
 }
-
-/* --------- */
 
 /* Feedback-section */
 .feedback{
@@ -402,8 +394,6 @@ label{
 .fa-arrow-right{
     padding-left: 6px;
 }
-
-/* ------------ */
 
 /* Footer */
 .footer{

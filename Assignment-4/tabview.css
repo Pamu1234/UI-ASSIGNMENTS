@@ -4,8 +4,11 @@
         padding: 0;
     }
     .header-logo {
-        width: 50%;
+        width: 70%;
         justify-content: center;
+    }
+    .logo-heading{
+        font-size: 20x;
     }
     .hamburger {
         display: none;
@@ -50,53 +53,55 @@
     .banner-content .banner-info, .banner-small-heading {
         margin-bottom: 5px;
         margin-top: 20px;
+        font-size: 23px;
     }
     .banner-content .large-heading {
-        color: white;
-        font-size: 19px;
-        margin-top: 15px;
+        font-size: 27px;
     }
     .recipes-detail-col{
         width: 50%;
     }
     .recipe-info{
-        font-size: 20px;
+        font-size: 27px;
     }
     .recipes-date, .recipes-location {
-        font-size: 15px;   
+        font-size: 22px;   
     }
     .feedback-para {
         width: 95%;
         padding-top: 10px;
-        font-size: 19px;
+        font-size: 30px;
     }
     .feedback-heading {
-        font-size: 27px;
-        padding-top: 5px;
+        font-size: 30px;
     }
-
+    .form-1 input, .form-2 input {
+    font-size: 20px;
+    }
+    .remove,.add-friend,.send-btn{
+        font-size: 25px;
+    }
+    .form-col-1 .contact-heading, .trash {
+        font-size: 26px;
+    }
     .filter_one .filter_one_heading {
-        font-size: 15px;
+        font-size: 20px;
     }
     .filter_list {
         padding: 7px;
         color: white;
-        font-size: 15px;
-    }
-    .row-footer {
-        display:flex;
-        flex-wrap: wrap;
+        font-size: 20px;
     }
     .footer-info{
         width: 50%;
     }
     .footer-para, .footer-para-2 {
         padding-top: 10px;
-        font-size: 13px;
+        font-size: 23px;
         color: #5e5e5e;
         font-weight: 500;
     }
     .footer-link{
-        font-size: 13px;
+        font-size: 24px;
     }
 }

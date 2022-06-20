@@ -5,5 +5,3 @@ hamIcon.addEventListener('click',()=>{
     hamIcon.classList.toggle("fa-times")
     display.classList.toggle("visible")
 })
-
-console.log("hello world");
