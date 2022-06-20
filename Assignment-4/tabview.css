@@ -19,6 +19,9 @@
     .banner{
         padding-top: 10px;
     }
+    .banner-image {
+        height: 500px;
+    }
     .header-navigation a {
         color: rgb(91, 91, 91);
         font-size: 15px;
@@ -47,61 +50,61 @@
         width: 90%;
         text-align: center;
         border-radius: 5px;
-        font-size: 15px;
+        font-size: 13px;
         padding: 15px 10px;
     }
     .banner-content .banner-info, .banner-small-heading {
         margin-bottom: 5px;
         margin-top: 20px;
-        font-size: 23px;
+        font-size: 17px;
     }
     .banner-content .large-heading {
-        font-size: 27px;
+        font-size: 18px;
     }
     .recipes-detail-col{
         width: 50%;
     }
     .recipe-info{
-        font-size: 27px;
+        font-size: 23px;
     }
     .recipes-date, .recipes-location {
-        font-size: 22px;   
+        font-size: 15px;   
     }
     .feedback-para {
         width: 95%;
         padding-top: 10px;
-        font-size: 30px;
-    }
-    .feedback-heading {
-        font-size: 30px;
-    }
-    .form-1 input, .form-2 input {
-    font-size: 20px;
-    }
-    .remove,.add-friend,.send-btn{
         font-size: 25px;
     }
+    .feedback-heading {
+        font-size: 25px;
+    }
+    .form-1 input, .form-2 input {
+    font-size: 14px;
+    }
+    .remove,.add-friend,.send-btn{
+        font-size: 19px;
+    }
     .form-col-1 .contact-heading, .trash {
-        font-size: 26px;
+        font-size: 18px;
     }
     .filter_one .filter_one_heading {
-        font-size: 20px;
+        font-size: 16px;
     }
     .filter_list {
-        padding: 7px;
+        padding: 4px;
         color: white;
-        font-size: 20px;
+        font-size: 14px;
     }
     .footer-info{
         width: 50%;
     }
     .footer-para, .footer-para-2 {
-        padding-top: 10px;
-        font-size: 23px;
-        color: #5e5e5e;
-        font-weight: 500;
+        font-size: 17px;
+    }
+    .footer-heading {
+        font-size: 18px;
     }
     .footer-link{
-        font-size: 24px;
+        font-size: 17px;
     }
 }

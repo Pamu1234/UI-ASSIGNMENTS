@@ -69,7 +69,8 @@ nav ul li a{
 }
 .banner-image{
     width: 100%;
-    height: 100%;
+    height: 750px;
+    vertical-align: bottom;
     object-fit: cover;
 }
 .banner-content{
@@ -85,7 +86,7 @@ nav ul li a{
 }
 .banner-content .large-heading{
     color: white;
-    font-size: 35px;
+    font-size: 30px;
     margin-top: 15px;
 }
 .btn-banner{
@@ -193,7 +194,7 @@ select:hover{
 }
 .filter_list{
     width: 25%;
-    padding: 15px;
+    padding: 8px;
     color: white;
     font-size: 20px;
 }
@@ -243,7 +244,7 @@ select:hover{
 }
 .recipe-info{
     margin-top: 15px;
-    font-size: 28px;
+    font-size: 20px;
     color: #4a4a4a;
     font-weight: 500;
 }
@@ -251,16 +252,15 @@ select:hover{
     width: 25%;
     padding-bottom: 20px;
     padding: 10px;
-    
 }
 .recipes-card{
-    height: 160px;
+    height: 129px;
     padding: 10px;
     background-color: #fff;
 }
 .recipes-date,.recipes-location{
     color: #5e5e5e;
-    font-size: 18px;
+    font-size: 16px;
 }
 .dish-img{
     width: 100%;
@@ -310,11 +310,11 @@ select:hover{
     color: #feffff;
 }
 .feedback-heading{
-    font-size: 40px;
+    font-size: 20px;
     padding-top: 5px;
 }
 .feedback-para{
-    width: 19%;
+    width: 35%;
     padding-top: 10px;
     font-size: 20px;
 }
@@ -465,7 +465,7 @@ div.form-1{
 }
 .form-1 input,.form-2 input{
     outline: none;
-    font-size: 16px;
+    font-size: 15px;
     margin-bottom: 20px;
 }
 .form-2{

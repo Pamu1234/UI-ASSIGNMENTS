@@ -15,7 +15,7 @@
     }
     .logo-heading{
         padding-top: 33px;
-        font-size: 25px;
+        font-size: 14px;
     }
     .header-navigation{
         margin: auto;
@@ -52,17 +52,14 @@
         width: 100%;
         padding:  10px
     }
-    .banner-image{
-    vertical-align: bottom;
-    } 
     .banner-small-heading{
-        font-size: 25px;
+        font-size: 17px;
     }
     .banner-content .large-heading{
-        font-size: 2.5em;
+        font-size: 1.5em;
     }
     .banner-content .banner-info{
-        font-size: 25px;
+        font-size: 19px;
     }
     .banner-small-heading {
         margin-top: 0; 
@@ -70,7 +67,7 @@
     .btn-banner{
         padding: 11px;
         border:none;
-        font-size: 28px;
+        font-size: 18px;
     }
     .btn-banner .go-to-recipe{
         text-decoration: none;
@@ -80,13 +77,11 @@
         padding: 0;
     }
     .recipes-date, .recipes-location {
-        color: #5e5e5e;
-        font-size: 25px;
-        font-weight: 400;
+        font-size: 15px;
     }
     .recipe-info {
         /* margin-top: 15px; */
-        font-size: 30px;
+        font-size: 19px;
         /* color: #4a4a4a; */
         /* font-weight: 500; */
     }
@@ -99,13 +94,13 @@
     }
     .feedback-para{
         width: 80%;
-        font-size: 25px;
+        font-size: 22px;
     }
     .form-col-1 .contact-heading, .trash {
-        font-size: 30px;
+        font-size: 18px;
     }
     .feedback-heading{
-        font-size: 35px;
+        font-size: 25px;
     }
     .footer{
         padding: 15px 10px;
@@ -124,11 +119,11 @@
         width: 100%;;
     }
     .form-1 input, .form-2 input {
-        font-size: 20px;
+        font-size: 13px;
         margin-bottom: 0px;
     }
     .remove,.add-friend,.send-btn{
-        font-size: 25px;
+        font-size: 18px;
     }
     .add-friend{
         padding: 10px;
@@ -141,12 +136,12 @@
         display: block;
     }
     .footer-para, .footer-para-2 {
-        font-size: 24px;
+        font-size: 20px;
         color: #5e5e5e;
         font-weight: 500;
     }
     .footer-heading{
-        font-size: 30px;
+        font-size: 25px;
     }
     #recipes{
         padding: 0 10px;
@@ -157,7 +152,7 @@
     }
     .filter_list{
         width: auto;
-        font-size: 25px;
+        font-size: 17px;
         padding: 10px;
     }
     .border{
@@ -167,10 +162,10 @@
         flex-basis: 100%;
     }
     .filter_one .filter_one_heading {
-        font-size: 27px;
+        font-size: 19px;
     }
     .filter_two .sort-by{
-        font-size: 25px;
+        font-size: 20px;
     }
     .middle_filter{
         padding-top: 10px;
