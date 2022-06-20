@@ -1,0 +1,220 @@
+@media screen and (max-width:767px) {
+
+    .header{
+        padding:0 10px;      
+    }
+    .row-header{
+        display: flex;
+        height: auto;
+        padding: 0 10px;
+    }
+    .header-logo{
+        width: 50%;
+        text-align: center;
+        margin: auto;
+    }
+    .logo-heading{
+        padding-top: 33px;
+        font-size: 20px;
+    }
+    .header-navigation{
+        margin: auto;
+    }
+    nav .hamburger{
+        display: block;
+    }
+    .fa-bars{
+        float: right;
+    }
+    nav ul {
+        display: none; 
+        padding-top: 30px;
+        text-align: center;
+    }
+    nav .visible{
+        display: block;
+    }
+    nav ul li{
+        padding-top: 10px;
+    }
+    nav ul li a {
+        width: 100%;
+        text-align: center;
+        text-decoration: none;
+        color: black;
+        padding: 5px 0px;
+    }
+    nav .mainMenu{
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 10;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: top 1s ease;
+        display: none;
+    }
+    nav .mainMenu .closeMenu{
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+    nav .openMenu{
+        font-size: 2rem;
+        margin: 20px;
+        display: block;
+        cursor: pointer;
+    }
+    nav .closeMenu{
+        font-size: 2rem;
+        display: block;
+        cursor: pointer;
+    }
+    .row-1{
+        display: block;
+        padding-top: 30px;
+    }
+    .banner-content{
+        width: 100%;
+        padding:  10px
+    }
+    .banner-image{
+    vertical-align: bottom;
+    } 
+    .banner-small-heading{
+        font-size: 15px;
+    }
+    .banner-content .large-heading{
+        font-size: 19px;
+    }
+    .banner-content .banner-info{
+        font-size: 15px;
+    }
+    .banner-small-heading {
+
+        margin-top: 0; 
+    }
+    .btn-banner{
+        padding: 11px;
+        border:none;
+        font-size: 12px;
+    }
+    .btn-banner .go-to-recipe{
+        text-decoration: none;
+    }
+    .recipes-detail-col {
+        width: 100%;
+        padding: 0;
+    }
+    .recipes-date, .recipes-location {
+        color: #5e5e5e;
+        font-size: 13px;
+        font-weight: 400;
+    }
+    .recipe-info {
+        margin-top: 15px;
+        font-size: 20px;
+        color: #4a4a4a;
+        font-weight: 500;
+    }
+    .recipes-card {
+        height: inherit;
+        background-color: #fff;
+    }
+    .image-footer .return, .upangle {
+        font-size: 15px;
+    }
+    .feedback-para{
+        width: 80%;
+    }
+    .feedback-heading{
+        font-size: 20px;
+    }
+    .footer{
+        padding: 15px 10px;
+    }
+    .footer-info{
+        width: 100%;
+        padding-top: 0px;
+        
+    }
+    div.form-1,.form-2{
+    display: flex;  
+    flex-wrap: wrap;
+    padding-top: 10px;
+    border: none;
+    }
+    .form-col-1{
+        width: 100%;;
+    }
+    .form-1 input, .form-2 input {
+        font-size: 12px;
+        margin-bottom: 0px;
+    }
+    .add-friend{
+        padding: 10px;
+    }
+    .send-btn{
+        width: 60%;
+        margin-left: 0px;
+    }
+    .row-footer{
+        display: block;
+    }
+    .footer-para, .footer-para-2 {
+        font-size: 15px;
+        color: #5e5e5e;
+        font-weight: 500;
+    }
+    .footer-heading{
+        font-size: 22px;
+    }
+    #recipes{
+        padding: 0 10px;
+    }
+    .main_filter{
+        display: block;
+        padding: 0 10px
+    }
+    .filter_list{
+        width: auto;
+        font-size: 15px;
+        padding: 10px;
+    }
+    .border{
+        border: none;
+    }
+    .left_filter {
+        flex-basis: 100%;
+    }
+    .middle_filter{
+        padding-top: 10px;
+        flex-basis: 50%;
+
+    }
+    .end_filter{
+        display: block;
+    }
+    .filter_type{
+        flex-basis: 100%;
+    }
+    .row-recipes-detail{
+        padding: 0 10px
+    }
+    .sub-feedback{
+        margin: auto;
+    }
+    #form-remove, #add-friend {
+        text-align: inherit;
+    }
+    #add-friend,#form-remove{
+        padding-left: 40%;
+    }
+    .feedback-btn {
+        margin-left: 20px;
+    }
+}
