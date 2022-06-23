@@ -1,0 +1,120 @@
+@media only screen and (min-width: 768px) and (max-width: 1200px){
+
+    .header {
+        padding: 0;
+    }
+    .header-logo {
+        width: 70%;
+        justify-content: center;
+    }
+    .logo-heading{
+        font-size: 20x;
+    }
+    .hamburger {
+        display: none;
+    }
+    nav ul{
+        padding-top: 22px;
+    }
+    .banner{
+        padding-top: 10px;
+    }
+    .banner-image {
+        height: 500px;
+    }
+    .header-navigation a {
+        color: rgb(91, 91, 91);
+        font-size: 15px;
+    }
+    .header-navigation {
+        width: 100%;
+    }
+    .form-col-1{
+        width: 50%;
+    }
+    .banner-content{
+        padding: 25px;
+    }
+    .btn-banner {
+        width: 20%;
+        border: none;
+        text-align: center; 
+        font-size: 14px;
+    } 
+    .btn-banner {
+        background-color: rgb(255, 255, 255);
+        width: 90%;
+        text-align: center;
+        border-radius: 5px;
+        font-size: 13px;
+        padding: 15px 10px;
+    }
+    .banner-content .banner-info, .banner-small-heading {
+        margin-bottom: 5px;
+        margin-top: 20px;
+        font-size: 17px;
+    }
+    .banner-content .large-heading {
+        font-size: 18px;
+    }
+    .recipes-detail-col{
+        width: 50%;
+    }
+    .recipe-info{
+        font-size: 23px;
+    }
+    .recipes-date, .recipes-location {
+        font-size: 15px;   
+    }
+    .feedback-para {
+        width: 100%;
+        padding-top: 10px;
+        font-size: 20px;
+    }
+    .feedback-heading {
+        font-size: 25px;
+    }
+    .form-1 input, .form-2 input {
+    font-size: 14px;
+    }
+    .remove,.add-friend,.send-btn{
+        font-size: 19px;
+    }
+    .form-col-1 .contact-heading, .trash {
+        font-size: 18px;
+    }
+    .filter_one .filter_one_heading {
+        font-size: 16px;
+    }
+    .filter_list {
+        padding: 4px;
+        color: white;
+        font-size: 14px;
+    }
+    .footer-info{
+        width: 50%;
+    }
+    .footer-para, .footer-para-2 {
+        font-size: 17px;
+    }
+    .footer-heading {
+        font-size: 18px;
+    }
+    .footer-link{
+        font-size: 17px;
+    }
+
+    .form-group {
+        width: 50%;
+    }
+    .form-group label {
+        font-size: 20px;
+        cursor: default;
+    }
+    .btn {
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+
+}
