@@ -7,46 +7,46 @@ hamIcon.addEventListener('click', () => {
 })
 
 var form = `<div class="form-1">
-  <div class="form-group">
+<div class="form-group">
     <label for="name">Firstname</label>
     <input type="text" id="name" placeholder="Enter Your firstname" required autocomplete="off">
     <small class ="error-msg"></small>
-  </div>
-  <div class="form-group">
-  <label for="lname">Lastname</label>
-  <input type="text"  id="lname" placeholder="Enter Your lastname" required autocomplete="off">
-  <small class ="error-msg"></small>
 </div>
-  <div class="form-group ">
+<div class="form-group">
+    <label for="lname">Lastname</label>
+    <input type="text"  id="lname" placeholder="Enter Your lastname" required autocomplete="off">
+    <small class ="error-msg"></small>
+</div>
+<div class="form-group ">
     <label for="email">Email</label>
     <input type="email"   id="email" placeholder="Enter Your email" required autocomplete="off">
     <small class ="error-msg"></small>
-  </div>
+</div>
 
-  <div class="form-group text-align-c">
-  <button type="submit" class="btn btn-primary" onclick="save()">Add friend</button></div>
+<div class="form-group text-align-c">
+    <button type="submit" class="btn btn-primary" onclick="save()">Add friend</button></div>
 </div>`;
 
 function table() {
-    let table = `<table class="table">
-  <thead>
+let table = `<table class="table">
+    <thead>
     <tr>
-      <th>Firstname</th>
-      <th>Lastname</th>
-      <th>Email</th>
-      <th>Edit</th>
-      <th>Delete</th>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Email</th>
+        <th>Edit</th>
+        <th>Delete</th>
     </tr>
-  </thead>
-  <tbody>`;
+    </thead>
+    <tbody>`;
     for (let i = 0; i < details.length; i++) {
         table = table + `<tr>
 
-      <td>${details[i].name}</td>
-      <td>${details[i].surname}</td>
-      <td>${details[i].email}</td>
-      <td><button type="button" class="edit" onclick="edit(${i})"><i class="fa-solid fa-pen-to-square"></i></button></td>
-      <td><button type="button" class="delete" onclick="deleteData(${i})"><i class="fa fa-trash"></i></button></td>
+    <td>${details[i].name}</td>
+    <td>${details[i].surname}</td>
+    <td>${details[i].email}</td>
+    <td><button type="button" class="edit" onclick="edit(${i})"><i class="fa-solid fa-pen-to-square"></i></button></td>
+    <td><button type="button" class="delete" onclick="deleteData(${i})"><i class="fa fa-trash"></i></button></td>
     </tr> `;
     };
     table = table + `</tbody>
@@ -113,25 +113,24 @@ function deleteData(index) {
 };
 
 function edit(index) {
-    let editForm = `<div class="editform">
-  <div class="form-group">
-    <label for="name">Update Firstname</label>
-    <input type="text" value="${details[index].name}" id="newName"  placeholder="Update Your Firstname">
-  </div>
-  <div class="form-group">
-  <label for="name">Update Lastname</label>
-  <input type="text" value="${details[index].surname}" id="newLname"  placeholder="Update Your Latsname">
-</div>
-  <div class="form-group email">
-    <label for="email">Email</label>
-    <input type="email" value="${details[index].email}" id="newEmail" placeholder="Update Your email">
-  </div>
-  <div class="form-group update-btn">
-  <button type="submit" class="btn-primary update" onclick="update(${index})">Update</button>
-  </div>
-</div>`;
+let editForm = `<div class="editform">
+    <div class="form-group">
+        <label for="name">Update Firstname</label>
+        <input type="text" value="${details[index].name}" id="newName"  placeholder="Update Your Firstname">
+    </div>
+    <div class="form-group">
+        <label for="name">Update Lastname</label>
+        <input type="text" value="${details[index].surname}" id="newLname"  placeholder="Update Your Latsname">
+    </div>
+    <div class="form-group email">
+        <label for="email">Email</label>
+        <input type="email" value="${details[index].email}" id="newEmail" placeholder="Update Your email">
+    </div>
+    <div class="form-group update-btn">
+        <button type="submit" class="btn-primary update" onclick="update(${index})">Update</button>
+    </div>
+    </div>`;
     document.getElementById("form").innerHTML = editForm;
-
 };
 
 function update(index) {

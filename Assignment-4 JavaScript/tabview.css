@@ -103,7 +103,6 @@
     .footer-link{
         font-size: 17px;
     }
-
     .form-group {
         width: 50%;
         box-sizing: border-box;
@@ -117,10 +116,8 @@
         font-size: 20px;
         cursor: pointer;
     }
-    .text-align-c
-{
-   text-align: center;
-}
-
+    .text-align-c{
+        text-align: center;
+    }
 
 }
